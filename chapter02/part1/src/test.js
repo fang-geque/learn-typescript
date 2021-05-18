@@ -6,5 +6,6 @@ class Person {
   }
 }
 
-const p =  new Person()
+const p =  new Person(18)
 console.log(p.name)
+console.log(p.age)
